@@ -138,7 +138,7 @@ df_at_bats = pd.read_sql("""
     GROUP BY team
     HAVING average_at_bats > 200; 
 """, conn3)
-print(df_at_bats)
+# print(df_at_bats)
 
 
 # CLOSE THE CONNECTION
